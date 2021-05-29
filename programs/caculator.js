@@ -3,7 +3,7 @@ var number2 = parseFloat(process.argv[3]);
 var operation = process.argv[4];
 var answer;
 
-if(operation === "mul") {
+/*if(operation === "mul") {
     answer = number1 * number2;
     console.log("The answer is " + answer);
 }else if(operation === "add"){
@@ -17,4 +17,26 @@ if(operation === "mul") {
     console.log("The answer is " + answer);
 }else {
     console.log("Invalid operation")  
+}*/
+
+switch (operation) {
+    case "mul":
+        answer = number1 * number2;
+        console.log("The answer is " + answer);
+        break;
+    case "div":
+        answer = number1 / number2;
+        console.log("The answer is " + answer);
+        break;
+    case "add":
+        answer = number1 + number2;
+        console.log("The answer is " + answer);
+        break;
+    case "sub":
+        answer = number1 - number2;
+        console.log("The answer is " + answer);
+        break;
+    default: 
+        console.log("Invaild");
+        break;
 }

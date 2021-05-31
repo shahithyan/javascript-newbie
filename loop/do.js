@@ -5,6 +5,8 @@ while (n < 7) {
     console.log("n = " + n);
 }
 
+console.log("while ends and Do starts.")
+
 var i = 5;
 
 do {

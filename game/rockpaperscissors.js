@@ -19,7 +19,6 @@ if (player === computerMove) {
     }
     
 }
-
 else if (player === "scissors") {
     if (computerMove === "paper") {
         console.log("You win 🏆🏆");
@@ -27,7 +26,6 @@ else if (player === "scissors") {
         console.log("You lose 😭😭");
     }
 }
-
 else if (player === "paper") {
     if (computerMove === "rock") {
         console.log("You win 🏆🏆");
